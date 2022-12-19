@@ -1,10 +1,7 @@
 name: OpenCVBuilder
 
-on:
-  workflow_dispatch:
-  push:
-    tags:
-      - '*'
+on: push
+
 
 jobs:
   ubuntu1804:
